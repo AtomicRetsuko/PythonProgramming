@@ -1,0 +1,5 @@
+import subprocess
+
+def clear_terminal():
+    subprocess.call('clear', shell=True)
+clear_terminal()  
